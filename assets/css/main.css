@@ -1697,10 +1697,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
 /* Produk Section */
 .produk .card {
   border-radius: 1rem;
@@ -1740,4 +1736,8 @@ section,
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+
+.languages {
+  margin-left: 1.5rem;
 }
