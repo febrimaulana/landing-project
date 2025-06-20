@@ -922,12 +922,27 @@ section,
   margin: 4px 10px;
 }
 
-.section-title p {
-  color: var(--accent-color);
-  margin: 0;
-  font-size: 36px;
-  font-weight: 600;
-  font-family: var(--heading-font);
+.section-title p,
+.why-us .card-item p,
+.specials .section-title p,
+.events .section-title p,
+.contact .section-title p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #bfa76a;
+  font-family: var(--default-font);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section-title p,
+  .why-us .card-item p,
+  .specials .section-title p,
+  .events .section-title p,
+  .contact .section-title p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
 
 /*--------------------------------------------------------------
