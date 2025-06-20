@@ -1728,3 +1728,16 @@ section,
 .produk .section-title p {
   color: #555;
 }
+
+@media (max-width: 576px) {
+  #produk .section-title h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.2 !important;
+    word-break: break-word;
+    white-space: normal;
+  }
+  #produk .section-title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
