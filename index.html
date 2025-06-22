@@ -12,9 +12,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -25,6 +25,14 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- Custom CSS for sitename -->
+    <style>
+      .sitename {
+        font-family: "Goudy Bookletter 1911", serif;
+        font-weight: 400;
+      }
+    </style>
 
     <!-- =======================================================
   * Template Name: Restaurantly
@@ -46,7 +54,7 @@
           <div class="languages d-flex align-items-center ms-4">
             <ul>
               <li>ID</li>
-              <li><a href="#">EN</a></li>
+              <li><a href="en/index.html">EN</a></li>
             </ul>
           </div>
         </div>
@@ -69,11 +77,10 @@
               <li class="dropdown">
                 <a href="#"><span>Produk</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#produk-beras">Beras</a></li>
-                  <li><a href="#produk-jagung">Jagung</a></li>
+                  <li><a href="#produk-kelapa">Kelapa</a></li>
+                  <li><a href="#produk-jahe">Jahe</a></li>
+                  <li><a href="#produk-biji-pala">Biji Pala</a></li>
                   <li><a href="#produk-kopi">Kopi</a></li>
-                  <li><a href="#produk-cengkeh">Cengkeh</a></li>
-                  <li><a href="#produk-kakao">Kakao</a></li>
                 </ul>
               </li>
               <li><a href="#kontak">Kontak</a></li>
@@ -235,48 +242,39 @@
             <p class="lead">Kami menyediakan berbagai komoditas agrikultur berkualitas tinggi dari Nusantara.</p>
           </div>
           <div class="row g-4 justify-content-center">
-            <div class="col-md-4 col-lg-3" id="produk-beras">
+            <div class="col-md-4 col-lg-3" id="produk-kelapa">
               <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/menu/bread-barrel.jpg" class="card-img-top" alt="Beras" style="height: 180px; object-fit: cover" />
+                <img src="assets/img/menu/bread-barrel.jpg" class="card-img-top" alt="Kelapa" style="height: 180px; object-fit: cover" />
                 <div class="card-body">
-                  <h5 class="card-title">Beras</h5>
-                  <p class="card-text">Beras pilihan dari petani lokal, diproses dengan standar mutu tinggi untuk kebutuhan konsumsi dan industri.</p>
+                  <h5 class="card-title">Kelapa</h5>
+                  <p class="card-text">Kelapa segar dari pohon pilihan, dipanen dengan teknik tradisional yang menjaga kualitas alami. Cocok untuk industri makanan, minyak, dan kosmetik.</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-lg-3" id="produk-jagung">
+            <div class="col-md-4 col-lg-3" id="produk-jahe">
               <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/img/menu/caesar.jpg" class="card-img-top" alt="Jagung" style="height: 180px; object-fit: cover" />
+                <img src="assets/img/menu/caesar.jpg" class="card-img-top" alt="Jahe" style="height: 180px; object-fit: cover" />
                 <div class="card-body">
-                  <h5 class="card-title">Jagung</h5>
-                  <p class="card-text">Jagung berkualitas untuk pangan, pakan ternak, dan kebutuhan industri lainnya.</p>
+                  <h5 class="card-title">Jahe</h5>
+                  <p class="card-text">Jahe merah dan putih premium dengan kandungan gingerol tinggi. Dipanen dari lahan organik, ideal untuk industri farmasi, makanan, dan minuman kesehatan.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3" id="produk-biji-pala">
+              <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="300">
+                <img src="assets/img/menu/cake.jpg" class="card-img-top" alt="Biji Pala" style="height: 180px; object-fit: cover" />
+                <div class="card-body">
+                  <h5 class="card-title">Biji Pala</h5>
+                  <p class="card-text">Biji pala kering berkualitas ekspor dengan aroma dan rasa yang khas. Diproses dengan standar internasional untuk industri rempah dan farmasi.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-lg-3" id="produk-kopi">
-              <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/img/menu/cake.jpg" class="card-img-top" alt="Kopi" style="height: 180px; object-fit: cover" />
+              <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="400">
+                <img src="assets/img/menu/greek-salad.jpg" class="card-img-top" alt="Kopi" style="height: 180px; object-fit: cover" />
                 <div class="card-body">
                   <h5 class="card-title">Kopi</h5>
-                  <p class="card-text">Kopi Nusantara dengan cita rasa khas, dipetik dan diproses secara profesional.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3" id="produk-cengkeh">
-              <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="400">
-                <img src="assets/img/menu/greek-salad.jpg" class="card-img-top" alt="Cengkeh" style="height: 180px; object-fit: cover" />
-                <div class="card-body">
-                  <h5 class="card-title">Cengkeh</h5>
-                  <p class="card-text">Cengkeh berkualitas ekspor, cocok untuk industri makanan, minuman, dan farmasi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3" id="produk-kakao">
-              <div class="card h-100 shadow border-0" data-aos="zoom-in" data-aos-delay="500">
-                <img src="assets/img/menu/lobster-bisque.jpg" class="card-img-top" alt="Kakao" style="height: 180px; object-fit: cover" />
-                <div class="card-body">
-                  <h5 class="card-title">Kakao</h5>
-                  <p class="card-text">Kakao terbaik dari perkebunan Indonesia, bahan baku utama industri cokelat.</p>
+                  <p class="card-text">Kopi Arabika dan Robusta dari dataran tinggi Indonesia. Dipetik manual dan diproses dengan teknik tradisional untuk menghasilkan cita rasa yang unik dan berkualitas premium.</p>
                 </div>
               </div>
             </div>
