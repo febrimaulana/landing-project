@@ -945,6 +945,15 @@ section,
   }
 }
 
+@media (max-width: 576px) {
+  .section-title h2 {
+    font-size: 1.4rem !important;
+    line-height: 1.2 !important;
+    word-break: break-word;
+    white-space: normal;
+  }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
