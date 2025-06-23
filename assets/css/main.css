@@ -1756,3 +1756,30 @@ section,
 .languages {
   margin-left: 1.5rem;
 }
+
+/* Custom CSS for sitename */
+.sitename {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+}
+
+/* Custom CSS for section images */
+.fasilitas-img,
+.komitmen-img,
+.visimisi-img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 576px) {
+  .fasilitas-img,
+  .komitmen-img,
+  .visimisi-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
